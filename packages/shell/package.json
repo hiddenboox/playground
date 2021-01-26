@@ -1,0 +1,21 @@
+{
+  "name": "@app/shell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "lint": "eslint --config .eslintrc.js ."
+  },
+  "dependencies": {
+    "monaco-editor": "^0.21.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-monaco-editor": "^0.41.2"
+  },
+  "devDependencies": {
+    "@app/babel": "1.0.0",
+    "monaco-editor-webpack-plugin": "^2.1.0"
+  }
+}

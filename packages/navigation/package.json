@@ -1,0 +1,18 @@
+{
+  "name": "@app/navigation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "lint": "eslint --config .eslintrc.js ."
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@app/babel": "1.0.0"
+  }
+}
